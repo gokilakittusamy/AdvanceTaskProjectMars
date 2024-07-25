@@ -1,0 +1,38 @@
+[
+  {
+    "skillName": "Coding",
+    "skillLevel": "Expert"
+  },
+  {
+    "skillName": "1234567890",
+    "skillLevel": "Beginner"
+  },
+  {
+    "skillName": "!@#$%^&*()",
+    "skillLevel": "Intermediate"
+  },
+  {
+    "skillName": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "skillLevel": "Expert"
+  },
+  {
+    "skillName": "Skill to edit",
+    "skillLevel": "Expert"
+  },
+  {
+    "skillName": "Skill to delete",
+    "skillLevel": "Expert"
+  }
+  /*
+    {
+    "language": "",
+    "level": "Native/Bilingual",
+    "popupmessage": "Please enter language and level"
+  },
+  {
+    "language": "French",
+    "level": "",
+    "popupmessage": "Please enter language and level"
+  }
+  */
+]

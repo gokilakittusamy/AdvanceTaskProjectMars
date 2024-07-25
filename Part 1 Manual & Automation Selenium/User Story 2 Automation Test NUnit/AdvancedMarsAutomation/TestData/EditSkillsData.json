@@ -1,0 +1,46 @@
+{
+	"HappyPathUpdate": [
+		{
+			"skillName": "Testing",
+			"skillLevel": "Intermediate"
+		},
+		{
+			"skillName": "Software Testing",
+			"skillLevel": "Expert"
+		}
+		/*Software Testing has been updated to your skills*/
+	],
+	"SkillAlreadyExist": [
+		{
+			"skillName": "Painting",
+			"skillLevel": "Intermediate"
+		},
+		{
+			"skillName": "Painting",
+			"skillLevel": "Intermediate"
+		}
+		/*This skill is already added to your skill list.*/
+	],
+	"ChangeLevelOnly": [
+		{
+			"skillName": "Communication",
+			"skillLevel": "Beginner"
+		},
+		{
+			"skillName": "Communication",
+			"skillLevel": "Expert"
+		}
+		/*Communication has been updated to your skills*/
+	],
+	"updatingWithExistingSkillNoChangeToLevel": [
+		{
+			"skillName": "Selenium",
+			"skillLevel": "Intermediate"
+		},
+		{
+			"skillName": "Selenium WebDriver",
+			"skillLevel": "Intermediate"
+		}
+		/*Selenium WebDriver has been updated to your skills*/
+	]
+}

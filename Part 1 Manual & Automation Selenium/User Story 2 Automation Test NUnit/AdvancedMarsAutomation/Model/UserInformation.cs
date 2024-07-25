@@ -13,7 +13,6 @@ namespace AdvancedMarsAutomation.Model
         private String password;
         private String firstName;
 
-
         public void setEmail(String email)
         {
             this.email = email;
@@ -47,4 +46,58 @@ namespace AdvancedMarsAutomation.Model
             return firstName;
         }
     }
+    public class UserAvailability
+    {
+
+        //private String availability;
+        public String availability;
+
+
+        public void setAvailability(String availability)
+        {
+            this.availability = availability;
+        }
+
+        public String getAvailability()
+        {
+            return availability;
+        }
+    }
+
+    public class UserHours
+    {
+
+        //private String hours;
+        public String hours;
+
+
+        public void setHours(String hours)
+         {
+             this.hours = hours;
+         }
+
+         public String getHours()
+         {
+             return hours;
+         }
+    }
+
+    public class UserEarnTarget
+    {
+
+        //private String earnTarget;
+        public String earnTarget;
+
+
+        public void setEarnTarget(String earnTarget)
+        {
+            this.earnTarget = earnTarget;
+        }
+
+        public String getEarnTarget()
+        {
+            return earnTarget;
+        }
+    }
+
 }

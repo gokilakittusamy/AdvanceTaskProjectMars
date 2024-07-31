@@ -1,0 +1,46 @@
+{
+	"HappyPathUpdate": [
+		{
+			"languageName": "Castellano",
+			"languageLevel": "Conversational"
+		},
+		{
+			"languageName": "Spanish",
+			"languageLevel": "Fluent"
+		}
+		/*Spanish has been updated to your languages*/
+	],
+	"LanguageAlreadyExist": [
+		{
+			"languageName": "English",
+			"languageLevel": "Basic"
+		},
+		{
+			"languageName": "English",
+			"languageLevel": "Basic"
+		}
+		/*This language is already exist in your language list.*/
+	],
+	"ChangeLevelOnly": [
+		{
+			"languageName": "Tamil",
+			"languageLevel": "Native/Bilingual"
+		},
+		{
+			"languageName": "Tamil",
+			"languageLevel": "Fluent"
+		}
+		/*Tamil has been updated to your languages*/
+	],
+	"updatingWithExistingLanguageNoChangeToLevel": [
+		{
+			"languageName": "mandrin",
+			"languageLevel": "Fluent"
+		},
+		{
+			"languageName": "mandarin",
+			"languageLevel": "Fluent"
+		}
+		/*mandarin has been updated to your skills*/
+	]
+}

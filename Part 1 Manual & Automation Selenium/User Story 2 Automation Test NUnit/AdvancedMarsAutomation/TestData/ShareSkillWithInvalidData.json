@@ -1,0 +1,19 @@
+{
+  "InvalidShareSkill": [
+
+    {
+      "shareSkillTitle": "",
+      "shareSkillDescription": "Create skill for credit",
+      "shareSkillCategory": "Business",
+      "shareSkillSubcategory": "Business Tips",
+      "shareSkillTags": "",
+      "shareSkillServiceType": "One-off service",
+      "shareSkillLocationType": "Online",
+      "shareSkillAvailableDays": "",
+      "shareSkillSkillTrade": "Skill-exchange",
+      "shareSkillSkillExchange": "",
+      "shareSkillWorkSamples": null,
+      "shareSkillActive": "Hidden"
+    }
+  ]
+}

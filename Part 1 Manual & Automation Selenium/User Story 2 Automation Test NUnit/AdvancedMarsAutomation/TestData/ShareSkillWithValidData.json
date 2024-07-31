@@ -1,0 +1,50 @@
+{
+  "HappyPathSkillExchange": [
+    {
+      "shareSkillTitle": "Website Development for Skill Exchange",
+      "shareSkillDescription": "I have experience in creating websites. I can tech anyone all the technologies to build their site from scratch.",
+      "shareSkillCategory": "Programming & Tech",
+      "shareSkillSubcategory": "WordPress",
+      "shareSkillTags": "Website",
+      "shareSkillServiceType": "Hourly basis service",
+      "shareSkillLocationType": "On-site",
+      "shareSkillAvailableDays": "",
+      "shareSkillSkillTrade": "Skill-exchange",
+      "shareSkillSkillExchange": "Resume creation",
+      "shareSkillWorkSamples":null,
+      "shareSkillActive": "Active"
+    },
+  ],
+  "HappyPathCredit": [
+    {
+      "shareSkillTitle": "Create skill for credit",
+      "shareSkillDescription": "Create skill for credit",
+      "shareSkillCategory": "Business",
+      "shareSkillSubcategory": "Business Tips",
+      "shareSkillTags": "Start new Business",
+      "shareSkillServiceType": "One-off service",
+      "shareSkillLocationType": "Online",
+      "shareSkillAvailableDays": "",
+      "shareSkillSkillTrade": "Credit",
+      "shareSkillSkillCredit": "10",
+      "shareSkillWorkSamples": null,
+      "shareSkillActive": "Hidden"
+    }
+  ]/*,
+  "HappyPathWorkSample": [
+    {
+      "shareSkillTitle": "Test samples attached",
+      "shareSkillDescription": "I have experience in creating websites. I can tech anyone all the technologies to build their site from scratch.",
+      "shareSkillCategory": "Fun & Lifestyle",
+      "shareSkillSubcategory": "Health, Nutrition & Fitness",
+      "shareSkillTags": "Health Tips",
+      "shareSkillServiceType": "Hourly basis service",
+      "shareSkillLocationType": "On-site",
+      "shareSkillAvailableDays": "",
+      "shareSkillSkillTrade": "Skill-exchange",
+      "shareSkillSkillExchange": "Fitness Tips",
+      "shareSkillWorkSamples": "Updated - Mars(QA)-CompetitionTask.pdf",
+      "shareSkillActive": "Active"
+    }
+  ]*/
+}

@@ -8,18 +8,9 @@ using System.Threading.Tasks;
 
 namespace AdvancedMarsAutomation.AssertHelpers
 {
-    public class SkillAssertHelper:GlobalHelper
+    public class ShareSkillAssertHelper:GlobalHelper
     {
-        public static void AssertSkillSuccessMessage(String expected, String actual)
-        {
-            Assert.That(expected == actual, "Success message is correct for skill");
-        }
-
-        public static void AssertSkillErrorMessage(string expected, string actual)
-        {
-            Assert.That(expected == actual, "Error message is correct for skill");
-        }
-        public static void AssertSkillCustomMessage(string customMessage)
+        public static void AssertShareSkillCustomMessage(string customMessage)
         {
             Assert.Inconclusive(customMessage);
         }
@@ -28,6 +19,15 @@ namespace AdvancedMarsAutomation.AssertHelpers
         {
             currentPageTitle = driver.Title;
             Assert.That(expectedPageTitle == currentPageTitle, "Page redirected to listing mangement sucessfully after creating the share skill");
+        }
+
+        public static void AssertSkillShareSuccessMessage(string expected, string actual)
+        {
+            Console.WriteLine($"expected-{expected}");
+
+            Console.WriteLine($"actual-{actual}");
+
+            Assert.That(expected == actual, "Success message is correct for share skill");
         }
     }
 }

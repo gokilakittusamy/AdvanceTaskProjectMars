@@ -1,5 +1,6 @@
 ﻿using AdvancedMarsAutomation.Model;
 using Newtonsoft.Json;
+using SharpCompress.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +35,15 @@ namespace AdvancedMarsAutomation.Utilities
             }
             return dataList;
         }
+    }
 
+    public static class JsonAddDataHelper
+    {
+        public static Dictionary<string, List<ShareSkillModel>> ReadAddShareSkillJsonFile(string filePath)
+        {
+            string json = File.ReadAllText(filePath);
+            return JsonConvert.DeserializeObject<Dictionary<string, List<ShareSkillModel>>>(json);
+        }
     }
     public static class JsonEditDataHelper
     {

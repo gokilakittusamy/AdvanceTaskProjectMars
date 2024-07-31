@@ -34,13 +34,13 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("Skill-Enter valid data").Info("TestCaseID:TC_202- Verify if the user can enter a new record using valid input &  select the level");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnSkillsTab();
             skillSteps.RemoveAllExistingSkills();
             String ValidDataFile = "SkillsWithValidData";
             skillSteps.AddSkill(ValidDataFile);
 
-           test.Log(Status.Pass, "TestCaseID:TC_202 - Verify if the valid user can add new valid skill - Passed");
+            test.Log(Status.Pass, "TestCaseID:TC_202 - Verify if the valid user can add new valid skill - Passed");
         }
 
         [Test, Order(2)]
@@ -50,7 +50,7 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("Skill - Update skill data").Info("TestCaseID:TC_202- Verify if the user can edit");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnSkillsTab();
             skillSteps.RemoveAllExistingSkills();
             
@@ -67,7 +67,7 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("Skill-Delete valid data").Info("TestCaseID:TC_202- Verify if the user can delete skill");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnSkillsTab();
             skillSteps.RemoveAllExistingSkills();
             String ValidDataFile = "SkillsWithValidData";

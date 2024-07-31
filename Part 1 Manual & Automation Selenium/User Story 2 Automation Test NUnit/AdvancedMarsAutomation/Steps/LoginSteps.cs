@@ -35,6 +35,7 @@ namespace AdvancedMarsAutomation.Steps
                     {
                         userInformation.setEmail(row["UserName"]);
                         userInformation.setPassword(row["Password"]);
+                        userInformation.setFirstName(row["FirstName"]);
                         readOnlyFirstRow = true;
                     }
                 }

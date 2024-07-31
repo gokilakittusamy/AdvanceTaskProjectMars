@@ -36,7 +36,7 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("Language-Enter valid data").Info("TestCaseID:TC_202- Verify if the user can enter a new record using valid input &  select the level");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnLangaugesTab();
             lanaguageSteps.RemoveAllExistingLanguages();
             String ValidDataFile = "LanguageWithValidData";
@@ -53,7 +53,7 @@ namespace AdvancedMarsAutomation.Tests
                             .Info("TestCaseID:TC_204- Verify if the user can enter invalid data and more than limited data");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnLangaugesTab();
             lanaguageSteps.RemoveAllExistingLanguages();
             String LanguageWithInvalidData = "LanguageWithInvalidData";
@@ -70,7 +70,7 @@ namespace AdvancedMarsAutomation.Tests
                                 .Info("TestCaseID:TC_401- Verify if the user can click the edit button and update the record ");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnLangaugesTab();
             lanaguageSteps.RemoveAllExistingLanguages();
             
@@ -88,7 +88,7 @@ namespace AdvancedMarsAutomation.Tests
                                 .Info("TestCaseID:TC_301- Verify if the User can Click the Delete button to delete the created records");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnLangaugesTab();
             lanaguageSteps.RemoveAllExistingLanguages();
             String ValidDataFile = "DeleteLanguageData";

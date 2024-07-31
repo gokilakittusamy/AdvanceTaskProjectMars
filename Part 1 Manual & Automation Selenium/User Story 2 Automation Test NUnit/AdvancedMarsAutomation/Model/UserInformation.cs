@@ -12,6 +12,7 @@ namespace AdvancedMarsAutomation.Model
         private String email;
         private String password;
         private String firstName;
+        private String lastName;
 
         public void setEmail(String email)
         {
@@ -45,6 +46,7 @@ namespace AdvancedMarsAutomation.Model
         {
             return firstName;
         }
+
     }
     public class UserAvailability
     {

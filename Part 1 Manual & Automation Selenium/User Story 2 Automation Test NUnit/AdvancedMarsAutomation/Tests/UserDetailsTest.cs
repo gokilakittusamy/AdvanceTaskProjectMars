@@ -31,7 +31,7 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("UserDetails-Availability").Info("TestCaseID:TC_101- Verify if the user can edit Availability ");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnAvailabilityEditButton();
             userDetailsSteps.EditAvailability();
 
@@ -48,7 +48,7 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("UserDetails-Hours").Info("TestCaseID:TC_103- Verify if the user can edit Hours");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnHoursEditButton();
             userDetailsSteps.EditHours();
 
@@ -64,7 +64,7 @@ namespace AdvancedMarsAutomation.Tests
             test = extent.CreateTest("UserDetails-EarnTarget").Info("TestCaseID:TC_105- Verify if the user can edit Earn Target ");
 
             loginSteps.DoLogin();
-            //homePageSteps.validateIsLoggedIn();
+            homePageSteps.validateIsLoggedIn();
             homePageSteps.ClickOnEarnTargetEditButton();
             userDetailsSteps.EditEarnTarget();
 

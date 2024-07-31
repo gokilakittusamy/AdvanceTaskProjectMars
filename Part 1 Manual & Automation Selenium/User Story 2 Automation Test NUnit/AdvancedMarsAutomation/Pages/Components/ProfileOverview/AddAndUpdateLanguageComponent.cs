@@ -68,8 +68,8 @@ namespace AdvancedMarsAutomation.Pages.Components.ProfileOverview
     
         public void AddEachLanguage(LanguageModel languageData)
         {
-            Console.WriteLine($"languageData.LanguageName-{languageData.LanguageName}");
-            Console.WriteLine($"languageData.LanguageLevel-{languageData.LanguageLevel}");
+            //Console.WriteLine($"languageData.LanguageName-{languageData.LanguageName}");
+            //Console.WriteLine($"languageData.LanguageLevel-{languageData.LanguageLevel}");
             RenderAddLanguageButton();
             addNewLanguageButton.Click();
             RenderAddLanguage();

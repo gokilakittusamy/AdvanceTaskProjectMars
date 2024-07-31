@@ -23,6 +23,8 @@ namespace AdvancedMarsAutomation.Utilities
         public static ExtentReports extent;
         //public static AventStack.ExtentReports.ExtentReports extent;
         public static ExtentTest test;
+        public String currentPageTitle;
+        public String currentUserName;
 
         [OneTimeSetUp]
         public void OneTimeSetUp()
